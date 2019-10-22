@@ -71,7 +71,7 @@ var obj1 = {
 var obj2 = JSON.parse(JSON.stringify(obj1))
 obj2.name = 'shenzhiyong'
 	
-console.log('obj1:', obj1)   // obj1: {name: "shenzhiyong"}
+console.log('obj1:', obj1)   // obj1: {name: "shen"}
 console.log('obj2:', obj2)   // obj2: {name: "shenzhiyong"}
 ```
 

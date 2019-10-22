@@ -53,7 +53,7 @@ module.exports = {
         sidebarDepth: 2,    // 可选的, 默认值是
         children: [
           ['/js/one', '对象的拷贝'],
-          ['/js/two', '对象的拷贝2']
+          ['/js/delay/300ms', '如何解决移动端300ms延迟的问题']
         ]
       },
     ]
