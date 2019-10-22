@@ -2,7 +2,7 @@
 home: true
 heroImage: https://shenzhiyong.com.cn/logo.jpeg
 layout: hello,
-heroText: 沈志勇重学前端
+heroText: 沈志勇的前端习题集
 tagline: 每天进步一点点，为努力的自己点赞
 actionText: 快速学习
 actionLink: /home/
