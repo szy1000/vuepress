@@ -1,6 +1,6 @@
 module.exports = {
   title: '沈志勇的小站',
-  description: '沈志勇说，一个专注帮助同学们自学的网站，一同学习进步！',
+  description: '沈志勇,沈志勇说,前端面试题,一个专注帮助同学们自学的网站，一同学习进步！',
   head: [
     ['link', { rel: 'icon', href: 'https://shenzhiyong.com.cn/logo.jpeg' }]
   ],

@@ -208,3 +208,5 @@ console.log('arr2:', arr2)  // arr1: [1, 2, 3, 4]
 
 放水完毕！
 
+<contact></contact>
+
