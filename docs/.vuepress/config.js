@@ -44,6 +44,8 @@ module.exports = {
         sidebarDepth: 2,    // 可选的, 默认值是
         children: [
           ['/css/one', '盒子模型'],
+          ['/css/02.css居中/css居中显示', 'css居中'],
+          ['/css/06.inline-block/间隔', 'inline-block'],
         ]
       },
       {
