@@ -42,8 +42,8 @@ module.exports = {
         children: [
           ['/css/one', '盒子模型'],
           ['/css/02.css居中/css居中显示', 'css居中'],
+          ['/css/03.sticky_footer/', '固定底部'],
           ['/css/06.inline-block/间隔', 'inline-block'],
-          ['/css/02.sticky_footer/', '固定底部'],
         ]
       },
       {
