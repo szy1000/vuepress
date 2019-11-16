@@ -6,6 +6,14 @@ heroText: 沈志勇的前端习题集
 tagline: 每天进步一点点，为努力的自己点赞
 actionText: 快速学习
 actionLink: /home/
+lang: zh-CN
+meta:
+  - name: keywords
+    content: 沈志勇,沈志勇说,前端面试,自学前端,技术分享
+  - name: author
+    content: 沈志勇,沈志勇说,shenzhiyong,szy1000
+  - name: Robots 
+    content: "all"
 features:
 - title: 复习旧知识
   details: 将常见的面试题，重新进行思考，提炼出不同的解法。

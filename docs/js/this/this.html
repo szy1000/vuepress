@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		// function foo() {
+		// 	console.log(this)
+		// }
+
+		// foo.call(null)
+
+
+		function foo() {
+			// 'use strict'
+			console.log(this)
+		}
+
+		foo.call(null)
+
+		var obj = {}
+		var obj2 = Object.create(null)
+
+		console.log(obj, obj2)
+
+		const show = () => {
+			return () => {
+				return () => {
+					return this
+				}
+			}
+		}
+		console.log(show()()())
+	</script>
+	
+</body>
+</html>
