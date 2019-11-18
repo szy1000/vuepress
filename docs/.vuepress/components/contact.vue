@@ -3,7 +3,7 @@
         <div class="item">
             <div class="title">关注公众号</div>
             <span>组队学习，一同成长</span>
-            <img src="mp.png" alt="">
+            <img src="./mp.png" alt="">
         </div>
         <div class="item">
             <div class="title">扫码添加好友</div>

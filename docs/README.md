@@ -14,6 +14,9 @@ meta:
     content: 沈志勇,沈志勇说,shenzhiyong,szy1000
   - name: Robots 
     content: "all"
+  - name: baidu-site-verification 
+    content: VuTEm2cLty
+    
 features:
 - title: 复习旧知识
   details: 将常见的面试题，重新进行思考，提炼出不同的解法。

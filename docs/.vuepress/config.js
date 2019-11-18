@@ -51,7 +51,8 @@ module.exports = {
         children: [
           ['/js/one', '对象的拷贝'],
           ['/js/delay/300ms', '如何解决移动端300ms延迟的问题'],
-          ['/js/this/', 'this指向']
+          ['/js/this/', 'this指向'],
+          ['/js/04.unique/', '数组去重']
         ]
       },
     ]

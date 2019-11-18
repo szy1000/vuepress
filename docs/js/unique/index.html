@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+
+		// var res = []
+		// 方法一： indexOf
+		// for(let i = 0; i < arr.length; i++) {
+		// 	if(res.indexOf(arr[i]) === -1) {
+		// 		res.push(arr[i])
+		// 	}
+		// }
+
+		// 方法二： 双层循环
+		// for(var i=0;i<arr.length;i++) {
+		// 	for(var j=0;j<res.length;j++) {
+		// 		if(arr[i] === res[j]) {
+		// 			break
+		// 		}
+		// 	}
+		// 	if(j === res.length) {
+		// 		res.push(arr[i])
+		// 	}
+		// }
+
+		// 方法三： sort 再排序
+		var arr = [1, 2, 1, 4, 5, 7, 3, 4]
+
+		var sortArr = arr.sort() //返回新数组
+
+		var res = [sortArr[0]]
+		for(var i=1; i < sortArr.length; i++) {
+			console.log(res[i])
+			console.log(sortArr[i])
+			if(res[i] !== sortArr[i-1]) {
+				res.push(sortArr[i])
+			}
+		}
+
+		console.log(sortArr)
+		console.log(res)
+
+
+		// sortArr = arr.concat().sort()
+  //   var arrry= [sortArr[0]]
+  //   console.log(arrry)
+
+  //   for (var i = 1; i < sortArr.length; i++) {
+  //       if (arr[i] !== arr[i-1]) {
+  //           arrry.push(sortArr[i]);
+  //       }
+  //   }
+
+		console.log('原数组：', arr)
+		console.log('过滤后：', arrry)
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
