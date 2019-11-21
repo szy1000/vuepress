@@ -13,10 +13,13 @@ meta:
   - name: author
     content: 沈志勇,沈志勇说,shenzhiyong,szy1000
   - name: Robots 
-    content: "all"
+    content: all
   - name: baidu-site-verification 
     content: VuTEm2cLty
-    
+  - name: 360-site-verification
+    content: 458837622c25afe1dd9bffffab3e8486
+  - name: sogou_site_verification
+    content: qfizcGYwXG
 features:
 - title: 复习旧知识
   details: 将常见的面试题，重新进行思考，提炼出不同的解法。

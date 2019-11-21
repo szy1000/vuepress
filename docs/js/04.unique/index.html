@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		var arr = [1, 2, 1, 4, 5, 7, 3, 4, 6]
+
+		var res = []
+		// 方法一： indexOf
+		for(let i = 0; i < arr.length; i++) {
+			if(res.indexOf(arr[i]) === -1) {
+				res.push(arr[i])
+			}
+		}
+
+		// 方法二： 双层循环
+		// for(var i=0;i<arr.length;i++) {
+		// 	for(var j=0;j<res.length;j++) {
+		// 		if(arr[i] === res[j]) {
+		// 			break
+		// 		}
+		// 	}
+		// 	if(j === res.length) {
+		// 		res.push(arr[i])
+		// 	}
+		// }
+
+		// 方法三： sort 再排序
+		// var sortArr = arr.concat().sort() //返回新数组
+		// var res = [sortArr[0]]
+		// for(var i=1; i < sortArr.length; i++) {
+		// 	if(sortArr[i] !== sortArr[i-1]) {
+		// 		res.push(sortArr[i])
+		// 	}
+		// }
+
+		// 方法四：利用数组的特性
+		// res = arr.filter((item, index, array) => {
+		// 	console.log(array.indexOf(item), index)
+		// 	return array.indexOf(item) === index
+		// })
+		
+		// 方法五： ES6 new Set()
+		// var res = new Set(arr)
+
+		// 方法六： 利用对象属性不可重复
+
+		// var obj = {}
+		// var res = []
+		// for(var i =0; i <arr.length; i++) {
+		// 	if(!obj[arr[i]]) {
+		// 		res.push(arr[i])
+		// 		obj[arr[i]] = 1
+		// 	} else {
+		// 		obj[arr[i]]++
+		// 	}
+		// }
+
+
+		console.log('原数组：', arr)
+		console.log('过滤后：', res)
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
