@@ -18,11 +18,51 @@ function unique(array) {
   //   }
   // }
 
-  res = [...new Set(array)]
+  // 3870ms
+  // for(var i=0;i<array.length;i++) {
+  // 	for(var j=0;j<res.length;j++) {
+  // 		if(array[i] === res[j]) {
+  // 			break
+  // 		}
+  // 	}
+  // 	if(j === res.length) {
+  // 		res.push(array[i])
+  // 	}
+  // }
+
+  // 104ms
+  // var sortArr = array.concat().sort() //返回新数组
+  // var res = [sortArr[0]]
+  // for(var i=1; i < sortArr.length; i++) {
+  // 	if(sortArr[i] !== sortArr[i-1]) {
+  // 		res.push(sortArr[i])
+  // 	}
+  // }
+
+  // 7624
+  // res = array.filter((item, index, array) => {
+  // 	return array.indexOf(item) === index
+  // })
+
+  // 15ms
+  // res = [...new Set(array)]
+2
+  // 10ms
+  var obj = {}
+  var res = []
+  for(var i =0; i <array.length; i++) {
+  	if(!obj[array[i]]) {
+  		res.push(array[i])
+  		obj[array[i]] = 1
+  	} else {
+  		obj[array[i]]++
+  	}
+  }
 
   return res
 }
 console.log('去重后的长度', unique(handleArray).length)
+// console.log('去重后的长度', unique([1,2,3,5,6,3]))
 
 let end = new Date().getTime()
 console.log('耗时', end - start)

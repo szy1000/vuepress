@@ -4,15 +4,15 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script>
-		var arr = [1, 2, 1, 4, 5, 7, 3, 4, 6]
+		var arr = [1, 2, 1, 4, 5, 7, 3, 4, 6, '1']
 
 		var res = []
 		// 方法一： indexOf
-		for(let i = 0; i < arr.length; i++) {
-			if(res.indexOf(arr[i]) === -1) {
-				res.push(arr[i])
-			}
-		}
+		// for(let i = 0; i < arr.length; i++) {
+		// 	if(res.indexOf(arr[i]) === -1) {
+		// 		res.push(arr[i])
+		// 	}
+		// }
 
 		// 方法二： 双层循环
 		// for(var i=0;i<arr.length;i++) {
@@ -21,6 +21,7 @@
 		// 			break
 		// 		}
 		// 	}
+		// 	console.log(j)
 		// 	if(j === res.length) {
 		// 		res.push(arr[i])
 		// 	}
@@ -40,9 +41,10 @@
 		// 	console.log(array.indexOf(item), index)
 		// 	return array.indexOf(item) === index
 		// })
-		
+
 		// 方法五： ES6 new Set()
-		// var res = new Set(arr)
+		// var res = Array.from(new Set(arr))
+		// var res =[...new Set(arr)]
 
 		// 方法六： 利用对象属性不可重复
 
@@ -65,6 +67,6 @@
 	</script>
 </head>
 <body>
-	
+
 </body>
 </html>
