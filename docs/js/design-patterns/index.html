@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // var calculateBonus = function (level, salary) {
+        //   if(level === 'S') {
+        //     return salary * 4
+        //   }
+        //   if(level === 'A') {
+        //     return salary * 3
+        //   }
+        //   if(level === 'B') {
+        //     return salary * 2
+        //   }
+        // }
+        // calculate体积大 效率低下 新增规则的话需要进入函数内部 违反开放-封闭原则 复用性差
+
+
+        var levelS = function (salary) {
+          return salary * 4
+        }
+
+        var levelA = function (salary) {
+          return salary * 3
+        }
+
+        var levelB = function (salary) {
+          return salary * 2
+        }
+
+        var calculateBonus = function (levelFn, salary) {
+          // if(levelFn === 'S'){
+          //   return levelS(salary)
+          // }
+          // if(levelFn === 'A'){
+          //   return levelA(salary)
+          // }
+          // if(levelFn === 'B'){
+          //   return levelB(salary)
+          // }
+          return levelFn(salary)
+        }
+
+        console.log(calculateBonus(levelA, 3000))
+        // calculateBonus 还是越来越大
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
