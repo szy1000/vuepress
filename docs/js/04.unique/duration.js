@@ -46,7 +46,7 @@ function unique(array) {
 
   // 15ms
   // res = [...new Set(array)]
-2
+
   // 10ms
   var obj = {}
   var res = []
