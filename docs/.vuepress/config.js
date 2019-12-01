@@ -59,6 +59,7 @@ module.exports = {
         title: 'javascript设计模式',   // 必要的
         children: [
           ['/design-patterns/01.strategies/策略模式', '策略模式'],
+          ['/design-patterns/02.Singleton/单例模式', '单例模式'],
         ]
       },
     ]
