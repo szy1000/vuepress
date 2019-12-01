@@ -55,6 +55,12 @@ module.exports = {
           ['/js/04.unique/', '数组去重']
         ]
       },
+      {
+        title: 'javascript设计模式',   // 必要的
+        children: [
+          ['/design-patterns/01.strategies/策略模式', '策略模式'],
+        ]
+      },
     ]
   }
 }

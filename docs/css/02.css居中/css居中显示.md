@@ -246,3 +246,5 @@ style:
 就是background-position：center
 
 好了
+
+<contact></contact>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+      // function Singleton(name) {
+      //   this.name = name;
+      // }
+      //
+      // var a = new Singleton('a')
+      // var b = new Singleton('b')
+      // console.log(a instanceof Singleton) // true
+      // console.log(b instanceof Singleton) // true
+      // console.log(a === b) // false
+
+
+      // function Singleton(name) {
+      //   this.name = name;
+      //   this.instance = null
+      // }
+      //
+      // Singleton.prototype.showName = function () {
+      //   console.log(this.name)
+      // }
+      //
+      // Singleton.getInstance = function (name) {
+      //   if(!this.instance){
+      //       this.instance = new Singleton(name)
+      //   }
+      //   return this.instance
+      // }
+      //
+      // const aa = Singleton.getInstance('aa')
+      // aa.showName()
+      //
+      // console.log(aa)
+      // console.log(Singleton.getInstance('bb'))
+
+        function Singletion() {
+          var instance;
+
+          var CreateInstance = function (name) {
+            if(instance) {
+              return instance
+            }
+            this.name = name
+            this.init()
+          }
+            return instance = this
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

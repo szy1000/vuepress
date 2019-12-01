@@ -46,10 +46,18 @@
           return levelFn(salary)
         }
 
-        console.log(calculateBonus(levelA, 3000))
+        // console.log(calculateBonus(levelA, 3000))
         // calculateBonus 还是越来越大
 
+        function Singleton(name) {
+          this.name = name;
+          this.instance = null
+        }(1)
 
+        var a = new Singleton('a')
+        var b = new Singleton('b')
+        console.log(a)
+        console.log(b)
     </script>
 </head>
 <body>

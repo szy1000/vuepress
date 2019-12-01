@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // function calculatePrice(price) {
+        //   if(price >=100 && price<200) {
+        //     return price - 5
+        //   }
+        //   if(price >= 200 && price < 300) {
+        //     return price - 10
+        //   }
+        //   if(price >= 300) {
+        //     return  price - 30
+        //   }
+        // }
+        // console.log(calculatePrice(200))
+
+        // function reducedFive(price) {
+        //   return price - 5
+        // }
+
+        // function calcPrice(level, price) {
+        //   if(level === 'VIP') {
+        //     return price * 0.8
+        //   }
+        //   if(level === 'silverVIP') {
+        //     return price * 0.6
+        //   }
+        //   if(level === 'goldVIP') {
+        //     return price * 0.5
+        //   }
+        //   return price
+        //
+        //   // switch (level) {
+        //   //   case 'VIP':
+        //   //     return price * 0.8
+        //   //   case 'silverVIP':
+        //   //     return price * 0.6
+        //   //   case 'goldVIP':
+        //   //     return price * 0.5
+        //   //   default:
+        //   //     return price
+        //   // }
+        // }
+        // console.log(calcPrice('silverVIP', 50))
+
+        var strategies = {
+          'VIP': function (price) {
+            return price * 0.8
+          },
+          'silverVIP': function (price) {
+            return price * 0.6
+          },
+          'goldVIP': function (price) {
+            return price * 0.5
+          },
+        }
+        function calcPrice(level, price) {
+            return strategies[level](price)
+        }
+
+        console.log(calcPrice('VIP', 50))
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
