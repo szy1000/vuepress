@@ -46,7 +46,7 @@ function unique(array) {
 
   // 15ms
   // res = [...new Set(array)]
-2
+
   // 10ms
   var obj = {}
   var res = []
@@ -62,7 +62,6 @@ function unique(array) {
   return res
 }
 console.log('去重后的长度', unique(handleArray).length)
-// console.log('去重后的长度', unique([1,2,3,5,6,3]))
 
 let end = new Date().getTime()
 console.log('耗时', end - start)
