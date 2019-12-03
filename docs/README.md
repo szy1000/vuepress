@@ -29,3 +29,13 @@ features:
   details: 希望我的博客能帮助大家找一份好工作。
 footer: MIT Licensed | Copyright © 2018-present Shen Zhiyong
 ---
+
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?15e48509fae4150e5b806119cea2aab1";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>

@@ -219,7 +219,7 @@ style:
 
 再补充点吧！
 
-#### 方法九： line-heght（仅限单行文字垂直居中)
+#### 方法九： line-height（仅限单行文字垂直居中)
 	
 	.wrapper {
 	   height: 400px;
