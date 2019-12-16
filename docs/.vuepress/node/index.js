@@ -20,6 +20,6 @@ app.get('/getJsSdk', function (req, res) {
 });
 
 
-app.listen(443, function () {
+app.listen(80, function () {
   console.log('Example app listening on port 443!');
 });
