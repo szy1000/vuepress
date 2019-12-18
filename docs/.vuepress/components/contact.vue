@@ -40,26 +40,34 @@
     export default {
 
         mounted() {
+            const jsArr = [
+                {
+                    name: 'Google Analytics',
+                    url: 'https://www.googletagmanager.com/gtag/js?id=UA-153805664-1',
+                    async: true
+                },
+                {
+                    name: 'Baidu Analytics',
+                    url: 'https://hm.baidu.com/hm.js?15e48509fae4150e5b806119cea2aab1'
 
-          // <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js'>
+                },
+                {
+                    name: 'jQuery',
+                    url: 'https://code.jquery.com/jquery-2.2.4.min.js'
+                }
+            ]
 
-          var _hmt = _hmt || [];
+          const _hmt = _hmt || [];
           (function() {
-            var hm = document.createElement("script");
-            var gg = document.createElement("script");
-            var jq = document.createElement("script");
+            const s = document.getElementsByTagName("script")[0];
 
-            gg.src = "https://www.googletagmanager.com/gtag/js?id=UA-153805664-1";
-            gg.async = true
-
-            hm.src = "https://hm.baidu.com/hm.js?15e48509fae4150e5b806119cea2aab1";
-
-            jq.src ="https://code.jquery.com/jquery-2.2.4.min.js";
-
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-            s.parentNode.insertBefore(gg, s);
-            s.parentNode.insertBefore(jq, s);
+            jsArr.map((arr) => {
+                const js = document.createElement("script");
+                js.src = arr.url
+                js.async = arr.async
+                s.parentNode.insertBefore(js, s)
+                // console.log(arr)
+            })
           })();
 
 
@@ -68,34 +76,34 @@
           gtag('js', new Date());
           gtag('config', 'UA-153805664-1');
 
-          ;(function($){
-            $.ajax({
-              type:'get',
-              url:"http://shenzhiyong.com.cn:3030/getJsSdk",
-              data: {
-                url: '' + window.location.href.split('#')[0]
-              },
-              contentType: "application/json",
-              success:function(data){
-                wx.config({
-                  debug: false,
-                  appId: data.appId,
-                  timestamp: data.timestamp,
-                  nonceStr: data.noncestr,
-                  signature: data.signature,
-                  jsApiList: ['showMenuItems','onMenuShareTimeline', 'onMenuShareAppMessage','onMenuShareQQ'] //功能列表，我们要使用JS-SDK的什么功能
-                });
-                wx.ready(function() {
-                  wx.showMenuItems({
-                    menuList: ['menuItem:share:appMessage' , 'menuItem:share:timeline' ,'menuItem:share:qq'] // 要显示的菜单项，所有menu项见附录3
-                  });
-                })
-              },
-              error:function(err){
-                console.log(err);
-              }
-            })
-          })(jQuery);
+          // ;(function($){
+          //   $.ajax({
+          //     type:'get',
+          //     url:"http://shenzhiyong.com.cn:3030/getJsSdk",
+          //     data: {
+          //       url: '' + window.location.href.split('#')[0]
+          //     },
+          //     contentType: "application/json",
+          //     success:function(data){
+          //       wx.config({
+          //         debug: false,
+          //         appId: data.appId,
+          //         timestamp: data.timestamp,
+          //         nonceStr: data.noncestr,
+          //         signature: data.signature,
+          //         jsApiList: ['showMenuItems','onMenuShareTimeline', 'onMenuShareAppMessage','onMenuShareQQ'] //功能列表，我们要使用JS-SDK的什么功能
+          //       });
+          //       wx.ready(function() {
+          //         wx.showMenuItems({
+          //           menuList: ['menuItem:share:appMessage' , 'menuItem:share:timeline' ,'menuItem:share:qq'] // 要显示的菜单项，所有menu项见附录3
+          //         });
+          //       })
+          //     },
+          //     error:function(err){
+          //       console.log(err);
+          //     }
+          //   })
+          // })(jQuery);
 
         }
     }
