@@ -31,5 +31,4 @@ footer: MIT Licensed | Copyright © 2018-present Shen Zhiyong
 ---
 
 <statistics />
-<script src="https://res2.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
   

@@ -68,6 +68,7 @@
                 s.parentNode.insertBefore(js, s)
                 // console.log(arr)
             })
+
           })();
 
 
@@ -75,7 +76,6 @@
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'UA-153805664-1');
-
           // ;(function($){
           //   $.ajax({
           //     type:'get',
@@ -104,6 +104,7 @@
           //     }
           //   })
           // })(jQuery);
+
 
         }
     }
