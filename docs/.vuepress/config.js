@@ -60,6 +60,7 @@ module.exports = {
         children: [
           ['/design-patterns/01.strategies/策略模式', '策略模式'],
           ['/design-patterns/02.Singleton/单例模式', '单例模式'],
+          ['/design-patterns/03.Observe/观察者模式', '观察者模式'],
         ]
       },
     ]
