@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		var MyImage = (function (argument) {
+			var imgNode = document.createElement('img');
+			document.body.appendChild(imgNode)
+
+			var img = new Image();
+
+			img.onload = function() {
+				imgNode.src = img.src
+			}
+
+			return {
+				setSrc: function(src) {
+					imgNode.src = './loading.gif'
+					img.src = src
+				}
+			}
+		})()
+		console.log(MyImage)
+		MyImage.setSrc('http://60.173.17.241:8008/group1/M00/00/02/rBAdSV2B6-eAePKMAAYhQeV9P24883.png')
+	</script>	
+</body>
+</html>
