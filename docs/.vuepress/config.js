@@ -27,7 +27,7 @@ module.exports = {
       {text: 'github', link: 'https://github.com/szy1000'},
     ],
     sidebar: [
-      ['/home/', '主页'],
+      ['/home2/', '主页'],
       {
         title: 'html面试题',   // 必要的
         // sidebarDepth: 3,    // 可选的, 默认值是 1
