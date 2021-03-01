@@ -10,7 +10,7 @@ meta:
 ## 个人信息 
 
 * 性 别：男&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; 
-* 共 龄：6  
+* 工 龄：6年前端（2年偏管理）  
 * 手 机：[18963731616](tel:18963731616)   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 
 * 邮 箱：<sx15821603214@gmail.com>    
 * 学 校：聊城大学 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
