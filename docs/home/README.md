@@ -10,7 +10,7 @@ meta:
 ## 个人信息 
 
 * 性 别：男&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp; 
-* 年 龄：31  
+* 共 龄：6  
 * 手 机：[18963731616](tel:18963731616)   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 
 * 邮 箱：<sx15821603214@gmail.com>    
 * 学 校：聊城大学 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
@@ -27,7 +27,7 @@ meta:
 
 ## 项目经历
 
-1. [浩鲸云计算](https://www.iwhalecloud.com/)(电信) - 前端开发(带领4人团队)  - 2019/05 - 2021/11 
+1. [浩鲸云计算](https://www.iwhalecloud.com/)(电信) - 前端开发(带领4人团队)  - 2019/05 - 2020/11 
     1. 负责前端组的日常开发任务（主要是PC端，小程序，移动端，混合开发App），合理安排前端小组工作内容，协调前端与其他部门合作
     2. 组织小组内部的技术分享和code review减少项目bug，与大家一起共同进步 共同提升
     3. 完成遗留项目的升级，从Jquery 转到React全家桶加Umi Antd，再到微服务。
