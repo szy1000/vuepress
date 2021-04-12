@@ -49,6 +49,7 @@ module.exports = {
       {
         title: 'javascript面试题',   // 必要的
         children: [
+          ['/js/01.createObj/', '对象的创建'],
           ['/js/one', '对象的拷贝'],
           ['/js/delay/300ms', '如何解决移动端300ms延迟的问题'],
           ['/js/this/', 'this指向'],
