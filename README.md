@@ -27,7 +27,7 @@
 
 欢迎添加我的微信
 
-![](./docs/.vuepress/components/aa2.jpg)
+![sx916698462](./docs/.vuepress/components/aa2.jpg)
 
 我的公众号
 

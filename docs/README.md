@@ -27,8 +27,10 @@ features:
   details: 对了问题的细致化探索，将是我们拥有更高的境界，实现自我进阶。
 - title: 期望与未来
   details: 希望我的博客能帮助大家找一份好工作。
-footer: MIT Licensed | Copyright © 2018-present Shen Zhiyong
 ---
+
+
+<Footer />
 
 <statistics />
   
