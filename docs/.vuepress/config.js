@@ -65,6 +65,12 @@ module.exports = {
           ['/design-patterns/04.Proxy/代理模式', '代理模式'],
         ]
       },
+      {
+        title: 'webpack相关知识',
+        children: [
+          ['webpack/webpack', 'webpack面试题']
+        ]
+      }
     ]
   }
 }
