@@ -68,7 +68,7 @@ module.exports = {
       {
         title: 'webpack相关知识',
         children: [
-          ['webpack/webpack', 'webpack面试题']
+          ['webpack/webpack', 'webpack']
         ]
       }
     ]

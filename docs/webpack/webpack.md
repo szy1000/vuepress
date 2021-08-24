@@ -7,7 +7,7 @@ meta:
     content: 沈志勇,沈志勇说,shenzhiyong,szy1000
 ---
 
-## Webpack面试题
+# Webpack面试题
 
 * 为什么要进行构建和打包？
 	1. 体积更下(Tree-shaking，压缩、合并),加载更快
@@ -32,7 +32,7 @@ meta:
 	2. webpack 构建工具 是loader和plugin的集合 
 * bable-runtime和babel-polyfill的区别
 
-### 基础配置
+## 基础配置
 	
 拆分和merge
 
@@ -62,7 +62,7 @@ loader: 'file-loader' || 'url-loader'
 （模块化）
 
 
-### 高级配置
+## 高级配置
 
 * 多入口
 	
@@ -154,7 +154,7 @@ import('./xxx.js').then(res => {
 	include: 'src'
 }
 
-### 优化打包效率
+## 优化打包效率
 
 * 优化babel-loader
 	
@@ -204,7 +204,7 @@ import('./xxx.js').then(res => {
 	* 配置webpack.dll.js文件
 
 
-### 优化产出代码 (生产环境)
+## 优化产出代码 (生产环境)
 
 * babel-loader
 * IgnorePlugin
@@ -212,12 +212,12 @@ import('./xxx.js').then(res => {
 * happyPack
 * ParallelUglifyPlugin
 
-### 不可以用生产环境
+## 不可以用生产环境
 * 自动刷新
 * 热更新
 * DllPlugin
 	
-### webpack性能优化--产出代码
+## webpack性能优化--产出代码
 1. 体积更小
 2. 合理分包 不重复加载
 3. 速度更快 内存使用更少
@@ -242,9 +242,9 @@ import('./xxx.js').then(res => {
 * Scope Hosting（作用域）
 	
 	
-### 构建流程概述
+## 构建流程概述
 
-### babel
+## babel
 
 * 环境搭建 && 基本配置
 	1. .babelrc配置
