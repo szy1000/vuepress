@@ -33,7 +33,8 @@ module.exports = {
         // sidebarDepth: 3,    // 可选的, 默认值是 1
         children: [
           ['/html/tag', '标签语义化'],
-          ['/html/two', 'b和strong区别']
+          ['/html/two', 'b和strong区别'],
+          ['/html/meta', '浅谈meta标签']
         ]
       },
       {
