@@ -10,7 +10,7 @@ meta:
 # Webpack面试题
 
 * 为什么要进行构建和打包？
-	1. 体积更下(Tree-shaking，压缩、合并),加载更快
+	1. 体积更小(Tree-shaking，压缩、合并),加载更快
 	2. 编译高级语言或语法（TS, ES6+,模块化,SCSS）
 	3. 兼容性和错误检查(Polyfill, postcss, eslint)
 	4. 统一的高效开发环境

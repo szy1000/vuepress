@@ -5,6 +5,9 @@ meta:
     content: meta,name,content,keywords,沈志勇,description,面试题,meta标签,html,语义化标签,SEO,
   - name: description
     content: meta标签在我们编码的时候极少用到,但他又比较重要。今天我们一起来回顾一下meta标签的使用
+
+  - name: refresh
+    content: 3;url=http://localhost:8080/home2/
   - name: author
     content: 沈志勇,沈志勇说,shenzhiyong,szy1000
 ---
@@ -46,13 +49,15 @@ meta总共包含4个属性:
 <meta charset="utf-8">
 ```
 
-#### name属性
+#### name属性与content的那点事
 
-meta标签详解
-
-https://www.cnblogs.com/zhuochong/p/11642930.html
+<code>name</code>属性的作用是对其所在行<code>meta</code>标签进行补充作用。一般是用于网页的描述说明，而 <code>content</code>对应的值像是对<code>name</code>的设置或解释作用
 
 
 https://segmentfault.com/a/1190000012039824
 
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="renderer" content="webkit"/>
+```
 <contact></contact>

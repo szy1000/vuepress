@@ -74,12 +74,23 @@ meta:
     2. 利用ajax及jsonp技术进行后台数据获取。且用模板引擎artTemplate进行前端页面的快速渲染。
     3. 配合客户端同学，书写部分移动端页面。完成混合开发的需求。
 
+## 历史项目
+ * [大数据-大屏展示](https://shenzhiyong.com.cn/dist2/#/index)
+ * [政务-常州纪检委](https://shenzhiyong.com.cn/dist/#/index)
+ * [社交-留学帮App react-native](https://www.pgyer.com/25tV)(安卓包，ios包需要添加uuid，暂时就不放出来了)
+ * [公司官网](http://limao.com)
+ * [海外电商-快乐打印](https://shenzhiyong.com.cn/shop/#/home)
+ * [工互平台](https://iwillcloud.com/#/index)
+ * 小程序混合开发链接整理中(下面是支付宝小程序)
+
+<video src="https://shenzhiyong.com.cn/11.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+
 ## 个人账号
 * [我的小站](https://shenzhiyong.com.cn)
 * [我的博客](https://blog.csdn.net/u011456552)
 * [我的github](https://github.com/szy1000)
 * [我的npm](https://www.npmjs.com/package/shenzhiyong)
-* [我的RN项目](https://www.pgyer.com/25tV)(安卓包，ios包需要添加uuid，暂时就不放出来了)
+* [开源框架使用手册](https://shenzhiyong.com.cn/storybook-static/)
 * 我的SSR框架，上线中......
 
 
