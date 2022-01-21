@@ -27,11 +27,10 @@ meta:
 
 ## 专业技能
 
-* 熟练掌握HTML5，CSS3，JavaScript(ES6)基础
-* 熟练使用React,React-Redux,React-Router,React Native, Antd/Antd-mobile框架
+* 熟练掌握HTML5，CSS3，JavaScript(ES6+)基础
+* 熟练使用React,Vue全家桶。更擅长React,React Native, Antd/Antd-mobile框架
 * 熟练运用Taro框架进行小程序开发
-* 熟练使用Webpack/Umi/Fis3的工具，且能独立完成前端脚手架的配置
-* 了解Vue,写过一个Vue项目
+* 熟练使用Webpack/Umi的工具，且能独立完成前端脚手架的配置
 * 熟练使用git进行团队协作开发
 
 ## 工作经历
@@ -62,7 +61,7 @@ meta:
     - 封装了JsBridge的方法，方便小伙伴与客户端进行交互。
     - 说实话，这样伤筋动骨的操作，上线后还是有一些小的问题，但经过小伙伴的共同努力，一周后就平稳了！
     
-* 贷超商城（WebApp）组件库的研发，我遇到的问题和解决方案如下：
+* [贷超商城（WebApp）](https://shenzhiyong.com.cn/mulanhua/)组件库的研发，我遇到的问题和解决方案如下：
     - 由于项目的样式复用率比较高，但是项目经手的人又比较多。所以，大家都是各写一套，导致样式代码冗余，且节日促销的时候，更新主题色都很难。极度不便维护。
     - 首先，我主动与UI设计师的进行沟通，让其协作我，在下一个版本迭代的时候，让她在界面样式中尽量保持统一。
     - 然后，开启组件库项目，提前书写UI的样式，优化组件，补充详细的md文档，然后发布npm。
@@ -80,7 +79,10 @@ meta:
  * [社交-留学帮App react-native](https://www.pgyer.com/25tV)(安卓包，ios包需要添加uuid，暂时就不放出来了)
  * [公司官网](http://limao.com)
  * [海外电商-快乐打印](https://shenzhiyong.com.cn/shop/#/home)
+ * [外卖](https://shenzhiyong.com.cn/ele/)
  * [工互平台](https://iwillcloud.com/#/index)
+ * [金融系统 - 手机端预览](https://shenzhiyong.com.cn/mulanhua/)
+ 
  * 小程序混合开发链接整理中(下面是支付宝小程序)
 
 <video src="https://shenzhiyong.com.cn/11.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
