@@ -71,7 +71,14 @@ module.exports = {
         children: [
           ['webpack/webpack', 'webpack']
         ]
-      }
+      },
+      {
+        title: 'git手记',   // 必要的
+        children: [
+          ['/git/01/', '同时推送到远端分支'],
+          ['/git/02/', '.gitignore文件不生效'],
+        ]
+      },
     ]
   }
 }
