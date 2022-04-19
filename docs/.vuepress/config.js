@@ -67,6 +67,14 @@ module.exports = {
         ]
       },
       {
+        title: 'nodejs',
+        children: [
+          ['/node/nvm/nvm', 'nvm-node版本管理'],
+            ['/node/koa/koa', 'koa']
+        ]
+      },
+
+      {
         title: 'webpack相关知识',
         children: [
           ['webpack/webpack', 'webpack']
