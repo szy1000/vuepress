@@ -14,27 +14,6 @@
 </template>
 
 
-<style scoped>
-    .connect{
-        position: fixed;
-        right: 100px;
-        top: 100px;
-        width: 150px;
-        text-align: center;
-    }
-    .item{
-        margin-bottom: 30px;
-    }
-    .title{
-        color: #3eaf7c;
-        font-size: 14px;
-    }
-    @media (max-width: 1588px){
-        .connect {
-            display: none;
-        }
-    }
-</style>
 
 <script>
     export default {
@@ -110,3 +89,33 @@
     }
 </script>
 
+
+<style scoped>
+    .connect{
+        position: fixed;
+        right: 100px;
+        top: 100px;
+        width: 150px;
+        text-align: center;
+    }
+    .item{
+        margin-bottom: 30px;
+    }
+    .title{
+        color: #3eaf7c;
+        font-size: 14px;
+    }
+    @media (max-width: 1588px){
+        .connect {
+            display: none;
+        }
+    }
+</style>
+
+<!--common css-->
+<style>
+    video{
+        width: 100%;
+        max-width: 200px;
+    }
+</style>

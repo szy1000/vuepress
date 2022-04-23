@@ -87,6 +87,12 @@ module.exports = {
           ['/git/02/', '.gitignore文件不生效'],
         ]
       },
+      {
+        title: '杂谈',   // 必要的
+        children: [
+          ['/misc/BeyondCompare/', 'BeyondCompare密钥吊销'],
+        ]
+      },
     ]
   }
 }

@@ -80,7 +80,7 @@ meta:
 ## 历史项目
  * [大数据-大屏展示](https://shenzhiyong.com.cn/dist2/#/index)
  * [政务-常州纪检委](https://shenzhiyong.com.cn/dist/#/index)
- * [社交-留学帮App react-native](https://www.pgyer.com/25tV)(安卓包，ios包需要添加uuid，暂时就不放出来了)
+ * 社交-留学帮App react-native [安卓包](https://www.pgyer.com/25tV) [苹果](https://apps.apple.com/cn/app/id1590253954)
  * [公司官网](http://limao.com)
  * [海外电商-快乐打印](https://shenzhiyong.com.cn/shop/#/home)
  * [外卖](https://shenzhiyong.com.cn/ele/)
@@ -88,7 +88,9 @@ meta:
  * [金融系统 - 手机端预览](https://shenzhiyong.com.cn/mulanhua/)
  * 小程序混合开发链接整理中(下面是支付宝小程序)
 
-<video src="https://shenzhiyong.com.cn/11.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+<video src="https://shenzhiyong.com.cn/11.mp4" autoplay muted controls="controls">您的浏览器不支持播放该视频！</video>
+
+
 
 ## 个人账号
 * [我的小站](https://shenzhiyong.com.cn)
