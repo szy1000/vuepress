@@ -34,7 +34,8 @@ module.exports = {
         children: [
           ['/html/tag', '标签语义化'],
           ['/html/two', 'b和strong区别'],
-          ['/html/meta', '浅谈meta标签']
+          ['/html/meta', '浅谈meta标签'],
+          ['/html/video', 'autoplay无法自动播放'],
         ]
       },
       {
