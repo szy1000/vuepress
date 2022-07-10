@@ -28,16 +28,17 @@ meta:
 ## 专业技能
 
 * 熟练掌握HTML5，CSS3，JavaScript(ES6+)基础
-* 熟练使用React,Vue全家桶。更擅长React,React Native, Antd/Antd-mobile框架
+* 熟练使用React,Vue全家桶。更擅长React,React Native,DevOps,CI-CD,Antd/Antd-mobile框架
 * 熟练运用Taro框架进行小程序开发
 * 熟练使用Webpack/Umi的工具，且能独立完成前端脚手架的配置
 * 熟练使用git进行团队协作开发
 
 ## 工作经历
-1. 霹雳软件(软件) - 技术合伙人（CTO）2020/11 - 至今
+1. 当前公司 - 技术负责人     2020/11 - 至今
 
 * 组建整个公司的技术团队
-* 利用技术节约人力成本，并保障技术对业务的快速响应
+* 利用DevOps技术，进行研发流程的优化。提升代码的交付质量
+* 对技术进行合理选型，节约人力成本。如使用（React Native,Taro）使技术栈统一，方便研发人员互相协调。
 
 2. [浩鲸云计算](https://www.iwhalecloud.com/)(电信，大数据) - 前端架构师(带领4人团队)  - 2019/05 - 2020/11 
 
@@ -88,7 +89,7 @@ meta:
  * [金融系统 - 手机端预览](https://shenzhiyong.com.cn/mulanhua/)
  * 小程序混合开发链接整理中(下面是支付宝小程序)
 
-<video src="https://shenzhiyong.com.cn/11.mp4" autoplay muted controls="controls">您的浏览器不支持播放该视频！</video>
+<video src="https://shenzhiyong.com.cn/11.mp4" muted controls="controls">您的浏览器不支持播放该视频！</video>
 
 
 
