@@ -1,13 +1,7 @@
----
-lang: zh-CN
-meta:
-  - name: keywords
-    content: 沈志勇,沈志勇说,简历,沈志勇的个人简历,前端工程师
-  - name: author
-    content: 沈志勇,沈志勇说,shenzhiyong,szy1000
----
-
 ## 基础信息 
+
+<font color="red">该简历建议 [在线预览](https://shenzhiyong.com.cn/home) 会有更多的内容。</font>
+
 * 姓名：沈志勇（男）
 * 手 机：[18963731616](tel:18963731616)
 * 学 历：本科(全日制)
@@ -22,25 +16,29 @@ meta:
 * 利用DevOps技术，简化了团队的研发流程，降低了研发风险并提高了交付质量
 * 支持过 注册用户达3000W+，活跃用户100W+的系统，保证了系统的稳定运行
 * 曾做过的金融系统（授信，OCR，决策引擎，大数据分析），实现了月流水破亿
-* 研究过SEO,数据埋点，数据分析等技术，为公司进行引流,实现了PV涨幅达250%，注册用户翻了1.5倍。
-* 一个不知名的Up主,博客访问量 20W+
+* 深研SEO,数据埋点，数据分析等技术，为公司进行引流,实现了PV涨幅达250%，注册用户涨幅150%。
+* 一个不知名的Up主,博客全网访问量30W+
 * 拥有较强的学习能力,沟通能力,团队协作精神以及分享精神。
 
 ## 专业技能
 
-* 熟练掌握HTML5，CSS3，JavaScript(ES6+)基础, PC端，移动端，小程序，React Native等开发技能。
+* 熟练掌握HTML5，CSS3，JavaScript(ES6+)基础
+* 熟练掌握React全家桶，Vue全家桶以及周边库：Antd Element Plus.
+* 熟练且快速完成PC端，移动端，小程序，App等开发技能。
+* 拥有一定的混合开发经验。Taro React Native以及Eletroon。
+* 擅长解决SPA技术带来的SEO问题。
+* 熟练配置CI-CD,提升代码构建效率
+* 掌握前端常见构建工具webpack,vite,可根据公司的业务进行私人订制。
 * 有丰富的网站架构经验，对于前端工程化，网站性能优化有一定的理解与实战。
-* 熟练使用React,Vue全家桶。更擅长React,React Native,DevOps,CI-CD,Antd/Antd-mobile框架
-* 熟练运用Taro框架进行小程序开发
-* 掌握前端常见构建工具如Webpack/Fis,可根据公司的业务进行私人订制。
-* 熟练使用Webpack/Umi的工具，且能独立完成前端脚手架的配置
-* 熟练使用git进行团队协作开发
+* 熟练使用git进行团队协作开发。
+* 有一定的egg开发经验。
 * 热爱开源和尝试造轮子。
 
 ## 工作经历
 1. 当前公司 - 技术负责人     2020/11 - 至今
 
-* 组建整个公司的技术团队
+* 参与团队的部分研发任务。
+* 组建整个公司的技术团队。
 * 利用DevOps技术，进行研发流程的优化。提升代码的交付质量
 * 对技术进行合理选型，节约人力成本。如使用（React Native,Taro）使技术栈统一，方便研发人员互相协调。
 
@@ -91,10 +89,6 @@ meta:
  * [外卖](https://shenzhiyong.com.cn/ele/)
  * [工互平台](https://iwillcloud.com/#/index)
  * [金融系统 - 手机端预览](https://shenzhiyong.com.cn/mulanhua/)
- * 小程序混合开发链接整理中(下面是支付宝小程序)
-
-<video src="https://shenzhiyong.com.cn/11.mp4" muted controls="controls">您的浏览器不支持播放该视频！</video>
-
 
 
 ## 个人账号
@@ -102,9 +96,5 @@ meta:
 * [我的博客](https://blog.csdn.net/u011456552)
 * [我的github](https://github.com/szy1000)
 * [我的npm](https://www.npmjs.com/package/shenzhiyong)
-* [开源框架使用手册](https://shenzhiyong.com.cn/storybook-static/)
-* 我的SSR框架，上线中......
-
-
-<contact></contact>
+* [仿Antd组件库](https://shenzhiyong.com.cn/storybook-static/)
 
