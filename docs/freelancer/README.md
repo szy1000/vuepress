@@ -87,3 +87,5 @@ meta:
     1. 熟练使用HTML5 CSS3 JavaScript搭建页面。要求兼容各大主流浏览器，且向上提升，渐进后退，最低支持IE8+
     2. 利用ajax及jsonp技术进行后台数据获取。且用模板引擎artTemplate进行前端页面的快速渲染。
     3. 配合客户端同学，书写部分移动端页面。完成混合开发的需求。
+
+<contact></contact>

@@ -8,8 +8,8 @@ module.exports = {
   themeConfig: {
     nav: [
       {text: '引导页', link: '/'},
-      {text: '进阶', link: '/home/'},
-      {text: '招聘*内推', link: '/job/'},
+      // {text: '进阶', link: '/home/'},
+      // {text: '招聘*内推', link: '/job/'},
       {
         text: '博客',
         ariaLabel: 'blog Menu',

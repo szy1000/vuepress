@@ -16,7 +16,7 @@
         gg.async = true
         hm.src = "https://hm.baidu.com/hm.js?15e48509fae4150e5b806119cea2aab1";
         jq.src ="https://code.jquery.com/jquery-2.2.4.min.js";
-        wx.src ="http://res.wx.qq.com/open/js/jweixin-1.2.0.js";
+        wx.src ="https://res.wx.qq.com/open/js/jweixin-1.2.0.js";
         // wx.src ="http://res2.wx.qq.com/open/js/jweixin-1.4.0.js";
 
 
